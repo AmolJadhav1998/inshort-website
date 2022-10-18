@@ -1,0 +1,10 @@
+<div class="container mt-3">
+    <h3>parent Component</h3>
+    <div class="card">
+        <div class=" card-header">Header</div>
+        <div class="card-body"><p>Data from parent Component</p>
+        </div>
+        <div class="card-footer">Footer</div>
+    </div>
+</div>
+<app-child3 [parentdata]="childdata" (Event1)="emitdatafromchild($event)"></app-child3>

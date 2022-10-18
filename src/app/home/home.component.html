@@ -1,0 +1,23 @@
+<h2>Student Data</h2><br>
+<style>
+    table,th,td{
+        border: 1px solid;
+        width: auto;
+    }
+   
+</style>
+<table class="table table-stripped">
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let d of studentdata">
+        <td>{{d.rollno}}</td>
+        <td>{{d.name}}</td>
+        <td>{{d.marks}}</td>
+        <td><button class="btn btn-info" (click)="showstudentdetails(d)">Show Details</button></td>
+    </tr>
+
+</table>

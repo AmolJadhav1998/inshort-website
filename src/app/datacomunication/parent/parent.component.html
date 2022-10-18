@@ -1,0 +1,10 @@
+<div class="container mt-3">
+    <h3>Parent Component</h3>
+    <div class="card">
+        <div class=" card-header">Header</div>
+        <div class="card-body"><p>This is the parent class</p></div>
+        <div class="card-footer">Footer</div>
+    </div>
+</div>
+<app-child [parentdata]="datafromprenttochild" (itemEvent)="emitdatafromchild($event)"></app-child>
+<!-- <app-home></app-home> -->
