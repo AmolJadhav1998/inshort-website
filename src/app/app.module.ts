@@ -15,6 +15,7 @@ import { Parent3Component } from './datacom3/parent3/parent3.component';
 import { Child3Component } from './datacom3/parent3/child3/child3.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
+import { GitcompComponent } from './gitcomp/gitcomp.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { SecondComponent } from './second/second.component';
     Parent3Component,
     Child3Component,
     FirstComponent,
-    SecondComponent
+    SecondComponent,
+    GitcompComponent
   ],
   imports: [
     BrowserModule,
